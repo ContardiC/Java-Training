@@ -17,4 +17,7 @@ public class User {
     public String getLastName(){
         return lastName;
     }
+    public void setID(int ID){
+        this.ID=ID;
+    }
 }
