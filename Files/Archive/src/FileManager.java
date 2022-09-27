@@ -82,7 +82,7 @@ public class FileManager {
                         char tmp;
                         tmp=randomAccessFile.readChar();
                         if(tmp!='\0'){
-                             System.out.print();
+                             System.out.print(tmp);
                         }
                        
                     }
