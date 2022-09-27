@@ -79,7 +79,12 @@ public class FileManager {
                     System.out.println(" "+randomAccessFile.readInt());
                     System.out.println(" "+randomAccessFile.readInt());
                     for(int j=0;j<MAX_LENGHT;j++){
-                        System.out.print(randomAccessFile.readChar());
+                        char tmp;
+                        tmp=randomAccessFile.readChar();
+                        if(tmp!='\0'){
+                             System.out.print();
+                        }
+                       
                     }
                     System.out.println("");
                 }
